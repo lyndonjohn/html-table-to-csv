@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export HTML Table to CSV</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>NAME</th>
+            <th>EMAIL</th>
+            <th>REGISTERED DATE</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>johndoe@mail.com</td>
+            <td>2023-04-20</td>
+        </tr>
+        <tr>
+            <td>Rick Roy</td>
+            <td>rick@mail.com</td>
+            <td>2023-02-13</td>
+        </tr>
+        <tr>
+            <td>Akari Watanabe</td>
+            <td>akari@watanabe.jp</td>
+            <td>2023-05-29</td>
+        </tr>
+    </table>
+
+    <button type="button" style="margin-top: 1em;" onclick="tableToCSV()">Export to CSV</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
